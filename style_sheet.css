@@ -1,0 +1,138 @@
+.heading h1{
+	margin: 15px;
+	right: 0px;
+	text-align: center;
+	font-size: 30px;
+	font-family: serif, "Pacifico";
+	padding-top: 10px;
+	padding-bottom: 30px;
+	color: white;
+	background-color: #302c2d;
+}
+
+.heading{
+	background-color: #302c2d;
+	height: 80px;
+	width: 100%;
+	position: relative;
+}
+
+body{
+	background-color: #504e4e;
+}
+
+.slider{
+	overflow: hidden;
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
+
+.thumbnail_container{
+	width: 3600px;
+	height: 100px;
+	background-color: black;
+	margin-left: 20px;
+	transition: margin 1s ease;
+}
+
+.thumbnail_container img{
+	height: 80px;
+	width: 80px;
+	padding: 5px;
+	text-align: center;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+
+.prev_slide{
+	background-color: black;
+	color: white;
+	width: 20px;
+	display: block;
+	position: absolute;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: auto;
+	font-size: 30px;
+	text-decoration: none;
+	z-index: 2;
+	float: left;
+}
+
+.next_slide{
+	background-color: black;
+	color: white;
+	width: 20px;
+	display: block;
+	position: absolute;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 30px;
+	text-decoration: none;
+	z-index: 2;
+	right: 8px;
+	float: right;
+}
+
+.image{
+	width: 100%;
+	max-height: 600px;
+	background-color: black;
+	position: relative;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.image img{
+	max-height: 600px;
+	height: 55vw;
+	min-height: 30px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	position: relative;
+}
+
+.prev_image{
+	background-color: black;
+	color: white;
+	height: auto;
+	max-width: 20px;
+	width: auto;
+	min-width: 10px;
+	display: inline-block;
+	position: absolute;
+	text-align: center;
+	margin-top: 15vw;
+	margin-bottom: auto;
+	font-size: 40px;
+	text-decoration: none;
+	cursor: pointer;
+	z-index: 2;
+	float: left;
+}
+
+.next_image{
+	background-color: invisible;
+	color: white;
+	height: auto;
+	max-width: 20px;
+	width: auto;
+	min-width: 10px;
+	display: inline-block;
+	position: absolute;
+	text-align: center;
+	margin-top: 15vw;
+	margin-bottom: auto;
+	font-size: 40px;
+	text-decoration: none;
+	cursor: pointer;
+	z-index: 2;
+	right: 8px;
+	float: right;
+}
