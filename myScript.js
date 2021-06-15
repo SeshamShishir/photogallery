@@ -8,7 +8,6 @@ const imagesInSlide = Math.trunc((slider.offsetWidth-2*thumbnailPrev.offsetWidth
 const slides= Math.ceil(noOfImages/imagesInSlide);
 var currentSlide=0;
 
-alert(imagesInSlide);
 function nextSlide(){
 	if(currentSlide<(slides-1)){
 		currentSlide++;
