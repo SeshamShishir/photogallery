@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" type="text/css" href="style_sheet.css">
+</head>
+<body>
+	<div class="site_content;">
+		<div class="heading">
+			Responsive Photo Gallery
+		</div>
+		<div class="slider">
+			<div class="prev_slide" onclick="prevSlide()" style="cursor: pointer;"> &#8249; </div>
+			<div class="next_slide" onclick="nextSlide()" style="cursor: pointer;"> &#8250; </div>
+			<div class="thumbnail_container">
+				<img src="image1.jpeg" onclick="selectedImage(this)">
+				<img src="image2.jpeg" onclick="selectedImage(this)">
+				<img src="image3.jpeg" onclick="selectedImage(this)">
+				<img src="image4.jpeg" onclick="selectedImage(this)">
+				<img src="image5.jpeg" onclick="selectedImage(this)">
+				<img src="image6.jpeg" onclick="selectedImage(this)">
+				<img src="image7.jpeg" onclick="selectedImage(this)">
+				<img src="image8.jpeg" onclick="selectedImage(this)">
+				<img src="image9.jpeg" onclick="selectedImage(this)">
+				<img src="image10.jpeg" onclick="selectedImage(this)">
+				<img src="image1.jpeg" onclick="selectedImage(this)">
+				<img src="image2.jpeg" onclick="selectedImage(this)">
+				<img src="image3.jpeg" onclick="selectedImage(this)">
+				<img src="image4.jpeg" onclick="selectedImage(this)">
+				<img src="image5.jpeg" onclick="selectedImage(this)">
+				<img src="image6.jpeg" onclick="selectedImage(this)">
+				<img src="image7.jpeg" onclick="selectedImage(this)">
+				<img src="image8.jpeg" onclick="selectedImage(this)">
+				<img src="image9.jpeg" onclick="selectedImage(this)">
+				<img src="image10.jpeg" onclick="selectedImage(this)">
+			</div>
+		</div>
+    	<div class="image">
+    		<div class="prev_image" onclick="prevImage()"> &#8249; </div>
+    		<div class="next_image" onclick="nextImage()"> &#8250; </div>
+			<img src="image1.jpeg" id="imageId">
+		</div>
+	</div>
+	<script src="myScript.js"></script>
+
+</body>
+</html>
